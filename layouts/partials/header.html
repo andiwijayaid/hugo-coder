@@ -2,7 +2,7 @@
   <section class="container">
     {{ with .Site }}
     <a class="navigation-title" href="{{ absLangURL "" }}">
-      {{ .Title }}
+      <i id="logo-icon" class="fa-brands fa-android"></i>
     </a>
     {{ end }}
     {{ if or .Site.Menus.main hugo.IsMultilingual }}
